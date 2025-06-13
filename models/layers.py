@@ -200,7 +200,7 @@ class Custom_SelfAttentionBlock(nn.Module):
             mask = torch.ones((1,1,Seq_q,Seq_k), device=q.device)
             mask = torch.triu(
                 mask,
-                diagonal=self.self_attn_diagonal)
+                diagonal=self.diagonal)
             mask_bool = mask.bool()
 
             # Set upper triangular matrix with -inf values, this is to ensure softmax will be 0 there.
