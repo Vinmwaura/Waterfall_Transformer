@@ -89,7 +89,7 @@ python generate_text.py <args>
 ```
 
 ## Pre-trained Models
-Model weights will be shared soon...
+Model weights can be found [here](https://huggingface.co/VinML/Waterfall_Transformer).
 
 ## Results
 Models were trained on a single **RTX 3080** 10GB GPU. (Log file can be found [here](training_results/Logs)).
